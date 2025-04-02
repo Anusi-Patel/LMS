@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #e8dcc3;
+  --color-accent: #1e3a5f;
+  --color-text-dark: #1b2735;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-text-dark);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-accent {
+  background-color: var(--color-accent);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.hover\:bg-accent-dark:hover {
+  background-color: #152c4a;
+}
+
+.focus\:ring-accent:focus {
+  --tw-ring-color: var(--color-accent);
+}
+
+.focus\:border-accent:focus {
+  border-color: var(--color-accent);
+}
+
